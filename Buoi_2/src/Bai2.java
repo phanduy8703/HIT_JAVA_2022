@@ -16,9 +16,9 @@ public class Bai2 {
         else
         {
             System.out.print("Day la 3 canh cua mot tam giac ");
-            if(a==b)
+            if(a==b||a==c||b==c)
             {
-                if (a==c)
+                if (a==c&&a==b)
                 {
                     System.out.print("Deu!");
                 }
