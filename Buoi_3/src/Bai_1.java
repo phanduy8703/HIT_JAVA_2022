@@ -24,7 +24,6 @@ public class Bai_1 {
         }
     }
 
-    //Tính trung bình cộng các số lẻ ở vị trí chẵn
     public static double TinhTBC(int a[], int n) {
         int dem = 0;
         float tong = 0;
@@ -37,7 +36,6 @@ public class Bai_1 {
         return tong / dem;
     }
 
-    //Tìm vị trí các số nhỏ nhất trong mảng
     public static void ViTriMin(int a[], int n) {
         int min = a[0];
         for (int i = 0; i < n; i++) {
@@ -52,7 +50,6 @@ public class Bai_1 {
         }
     }
 
-    //Kiểm tra mảng có số chính phương không? Nếu có hiển thị ra màn hình
     public static boolean KiemTraSCP(int a) {
         int b = (int) Math.sqrt(a);
         if (b * b == a) {
@@ -71,7 +68,6 @@ public class Bai_1 {
         }
     }
 
-    //Hiển thị các số nguyên tố có trong mảng lên màn hình
     public static boolean KiemTraSNT(int a) {
         if (a < 2) {
             return false;
@@ -92,9 +88,8 @@ public class Bai_1 {
         }
     }
 
-    //Sắp xếp mảng đã nhập theo thứ tự tăng dần
     public static void SapXep(int a[], int n) {
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (a[i] < a[j]) {
                     int b = a[i];
@@ -102,5 +97,6 @@ public class Bai_1 {
                     a[j] = b;
                 }
             }
+        }
     }
 }

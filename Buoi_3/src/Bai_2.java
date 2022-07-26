@@ -14,12 +14,10 @@ public class Bai_2 {
         System.out.println("Chuoi sau khi chuan hoa la: " + s);
     }
 
-    // Xóa tât cả các dấu cách thừa trong chuỗi
     public static String xoaKhoangTrang(String s) {
         return s.trim().replaceAll("\\s+", " ");
     }
 
-    //Viết hoa các chữ cái đầu mỗi từ, các chữ cái sau viết thường
     public static String chuHoaThuong(String s) {
         s = s.toLowerCase();
         String s1[] = s.split(" ");
@@ -33,7 +31,6 @@ public class Bai_2 {
         return s;
     }
 
-    // Xóa hết các số có trong chuỗi
     public static boolean kiemTraSo(char a) {
         if ((int) a >= 48 && (int) a <= 57)
             return true;
