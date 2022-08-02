@@ -15,7 +15,7 @@ public class Bai_2 {
     }
 
     public static String xoaKhoangTrang(String s) {
-        return s.trim().replaceAll("\\s+", " ");
+        return s.replaceAll("\\s+", " ").trim();
     }
 
     public static String chuHoaThuong(String s) {
