@@ -18,13 +18,12 @@ public class Bai_1 {
         b.setDai(dai);
         b.setRong(rong);
         System.out.println("Hinh 1");
-        System.out.println("Chieu dai: " + a.getDai());
-        System.out.println("Chieu rong: " + a.getRong());
-        System.out.println("Dien tich: " + a.dienTich());
-        System.out.println("Chu vi: " + a.chuVi());
+        a.xuat();
         System.out.println("Hinh 2");
-        b.xuat();
-
+        System.out.println("Chieu dai: " + b.getDai());
+        System.out.println("Chieu rong: " + b.getRong());
+        System.out.println("Dien tich: " + b.dienTich());
+        System.out.println("Chu vi: " + b.chuVi());
         if (a.dienTich() > b.dienTich())
             System.out.println("Dien tich a lon hon! Dien tich a bang: " + a.dienTich());
         else if (a.dienTich() == b.dienTich())

@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc6dd73-b11b-445c-811b-cc1e7d672bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buoi_4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai_1/Bai_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai_1/HinhChuNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai_2/Bai_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai_2/NhanVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai_3/Bai_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai_3/PtBac2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai_4/Bai_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai_4/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Buoi_3/src/Bai_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi_3/src/Bai_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai_1/Bai_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai_1/Bai_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +32,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Bai_2">
+  <component name="RunManager" selected="Application.Bai_1 (1)">
     <configuration name="Bai_1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bai_1.Bai_1" />
       <module name="Buoi_4" />
@@ -103,23 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bai_2" />
         <item itemvalue="Application.Bai_1 (1)" />
+        <item itemvalue="Application.Bai_2" />
         <item itemvalue="Application.Bai_4" />
         <item itemvalue="Application.Bai_3" />
         <item itemvalue="Application.Bai_1" />
@@ -137,7 +124,8 @@
       <workItem from="1659267674493" duration="61000" />
       <workItem from="1659452779720" duration="340000" />
       <workItem from="1659453260608" duration="10113000" />
-      <workItem from="1659469192711" duration="1352000" />
+      <workItem from="1659469192711" duration="1555000" />
+      <workItem from="1659515055007" duration="142000" />
     </task>
     <servers />
   </component>
