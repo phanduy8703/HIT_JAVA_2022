@@ -12,6 +12,38 @@ public class Employee {
 
     }
 
+    public Employee(String id, String name, int age, int workingDays) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.workingDays = workingDays;
+    }
+
+    public String getId() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public int getWorkingDays() {
+        return workingDays;
+    }
+    public void setId(String id) {
+        this.id = id;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public void setWorkingDays(int workingDays) {
+        this.workingDays = workingDays;
+    }
+
     public double salary() {
         return workingDays * PRICE;
     }

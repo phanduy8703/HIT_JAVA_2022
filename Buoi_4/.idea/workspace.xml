@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3fc6dd73-b11b-445c-811b-cc1e7d672bb2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai_1/Bai_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai_1/Bai_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai_4/Bai_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai_4/Bai_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai_4/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai_4/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Bai_1 (1)">
+  <component name="RunManager" selected="Application.Bai_4">
     <configuration name="Bai_1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bai_1.Bai_1" />
       <module name="Buoi_4" />
@@ -105,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai_4" />
         <item itemvalue="Application.Bai_1 (1)" />
         <item itemvalue="Application.Bai_2" />
-        <item itemvalue="Application.Bai_4" />
         <item itemvalue="Application.Bai_3" />
         <item itemvalue="Application.Bai_1" />
       </list>
@@ -126,6 +127,9 @@
       <workItem from="1659453260608" duration="10113000" />
       <workItem from="1659469192711" duration="1555000" />
       <workItem from="1659515055007" duration="142000" />
+      <workItem from="1659515763012" duration="286000" />
+      <workItem from="1659516128232" duration="89000" />
+      <workItem from="1659517590024" duration="1426000" />
     </task>
     <servers />
   </component>
