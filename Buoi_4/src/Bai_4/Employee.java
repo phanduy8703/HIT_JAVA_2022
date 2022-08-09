@@ -61,7 +61,6 @@ public class Employee {
             System.out.print("Nhap so ngay di lam: ");
             workingDays = sc.nextInt();
         } while (workingDays < 0);
-        sc.nextLine();
     }
 
     public void xuat() {
