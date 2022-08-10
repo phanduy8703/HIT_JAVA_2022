@@ -96,7 +96,7 @@ public class Bai_2 {
                             }
                             i--;
                             n--;
-                            
+
                         }
 
                     }
