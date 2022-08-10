@@ -94,10 +94,10 @@ public class Bai_2 {
                                 students[j] = students[j + 1];
 
                             }
-
+                            i--;
+                            n--;
+                            
                         }
-                        i--;
-                        n--;
 
                     }
                     for (int i = 0; i < n; i++) {
