@@ -6,7 +6,7 @@ public class Bai_3 {
 
         System.out.println(isPrime(8));
         System.out.println(isPrime(7L));
-        System.out.println(isPrime(7.0f));
+        System.out.println(isPrime(8.7f));
         System.out.println(isPrime(25.08));
 
     }
@@ -35,33 +35,13 @@ public class Bai_3 {
 
     public static boolean isPrime(float n) {
 
-        int x = (int) n;
-        if (x != n) {
-            return false;
-        } else {
-            for (int i = 2; i < x; i++) {
-                if (x % i == 0) {
-                    return false;
-                }
-            }
-            return true;
-        }
+    return false;
 
     }
 
     public static boolean isPrime(double n) {
 
-        int x = (int) n;
-        if (x != n) {
-            return false;
-        } else {
-            for (int i = 2; i < x; i++) {
-                if (x % i == 0) {
-                    return false;
-                }
-            }
-            return true;
-        }
+        return false;
 
     }
 }
