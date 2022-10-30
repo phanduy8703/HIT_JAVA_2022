@@ -4,6 +4,16 @@ import java.util.Scanner;
 
 public class Bai_2 {
 
+    public static boolean check(Student[] a, String x, int n) {
+
+        for (int i = 0; i < n; i++) {
+            if (x.equals(a[i].getId())) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
 
         int n, x;
@@ -31,6 +41,10 @@ public class Bai_2 {
                         students[i] = new Student();
                         students[i].input();
 
+                        if (check(students, students[i].getId(), i) == false) {
+                            i--;
+                            System.out.println("\nTrung ma sinh vien!");
+                        }
                     }
                     break;
 
@@ -115,5 +129,7 @@ public class Bai_2 {
 
         } while (x != 5);
     }
+
+
 }
 
